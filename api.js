@@ -1,8 +1,9 @@
 var mongoose = require("mongoose");
 var express = require("express");
+var TaskModel = require('./task_schema');
 var router = express.Router();
 var query = "mongodb+srv://alfredo:12345@cluster0.3naragb.mongodb.net/taskBD?retryWrites=true&w=majority"
-CD
+
 const db = (query);
 
 mongoose.Promise = global.Promise;
